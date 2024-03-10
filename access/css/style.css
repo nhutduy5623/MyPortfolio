@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #c9f0f0  ;
+}
+
+.body {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-mark {
+    width: 80%;
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    z-index: 1;
+}
+.profile {
+    width: 20%;
+    position: fixed ;
+    z-index: auto;
+    display: flex;
+    height: 100%;
+    margin-top: 2.4%;
+    padding: 0 2%;
+    flex-direction: column;
+    z-index: 2;
+    
+}
+
+    .avatar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        text-align: center;
+        justify-self: center;
+        box-shadow: rgba(73, 69, 69, 0.334) 0px 2px 6px 0px;
+        padding: 5%;
+        box-sizing: border-box;
+    }
+        .avatarIMG {
+            width: 60%;
+            margin: auto;
+            border-radius: 25%;
+            margin-bottom: 0;
+        }
+        .name {
+            font-size: 200%;
+            margin-top: 10px;
+        }
+        .num-box {
+            width: 100%;
+            border-top: 1px solid #CCC;
+            margin-top: 10px; 
+        }
+
+    
+        
+
+    .contact {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: white;
+        margin-top: 5%;
+        padding: 5%;
+        box-sizing: border-box;
+        box-shadow: rgba(73, 69, 69, 0.334) 0px 2px 6px 0px;
+
+    }
+        .cd-ro {
+            border-top: 1px solid #CCC;
+            padding: 10px; 
+        }
+        .linkProfile {
+            display: flex;
+            justify-content: center;
+            flex-direction: row !important;
+            font-size: 150%;
+        }
+        .linkProfile > a {
+            margin: 0 5%;
+        }
+
+
+
+.profile-temp {
+    width: 30%;
+    display: block;
+}
+.main-content{ 
+    width: 70%;
+    margin: 3% 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+.databox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 3%;
+    margin-bottom: 3%;
+    box-sizing: border-box;
+    text-align: justify;
+    box-shadow: rgba(73, 69, 69, 0.334) 0px 2px 6px 0px;
+}
+.databox-Header {
+    width: 100%;
+    border-bottom: 1px solid rgba(124, 117, 117, 0.466);
+}
+.databox-Content {
+    margin-top: 1%;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+    .databox p {
+        color: rgb(67, 66, 66);
+        text-indent: 3%;
+    }
+
+.contentEdu {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+    .eduLeft {
+        border-right:1px #CCC solid ;
+        text-align: center;
+        padding: 3%;
+    }
+    .eduRight {
+        padding: 0 3%;
+    }
+
+    .project-box {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        box-sizing: border-box;
+        border-bottom: 1px dotted rgba(69, 69, 69, 0.339);
+        margin: 5% 0;
+    }
+        .project-box .project-header {
+            width: 10%;
+            color: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-sizing: border-box;
+            margin-right: 3%;
+            align-items: center;
+            padding: 0 5%;
+            border-right: 1px dotted rgba(69, 69, 69, 0.339);
+        }
+            .project-box .project-header .item{
+                color: rgb(0, 0, 0);
+                font-size: 90%;
+                text-decoration: none;
+                margin: auto 0;
+                text-wrap: wrap;
+                padding-right: 10px;
+                box-sizing: border-box;
+                font-weight: 700;
+            }
+
+        .project-box .project-body {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding-bottom: 2%;
+        }
+            .project-box .project-body .project-thumbnail {
+                width: 100%;
+                height: auto;
+                margin-top: 2%;
+                
+            }
+            .project-box .project-body img {
+                width: 100%;
+                height: auto;
+                border: solid 1px rgba(49, 48, 48, 0.458);
+                border-radius: 2%;
+            }
+            .project-maincontent {
+                margin-top: 3%;
+                padding:0% 3%;
+                box-sizing: border-box;
+            }
+            .title-projectBody {
+                width: 100%;
+                text-align: center;
+                margin: 0;
+            }
