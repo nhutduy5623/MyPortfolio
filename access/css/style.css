@@ -45,6 +45,7 @@ body {
         justify-self: center;
         box-shadow: rgba(73, 69, 69, 0.334) 0px 2px 6px 0px;
         padding: 5%;
+        padding-bottom: 0;
         box-sizing: border-box;
     }
         .avatarIMG {
@@ -61,6 +62,7 @@ body {
             width: 100%;
             border-top: 1px solid #CCC;
             margin-top: 10px; 
+            padding: 5% 0;
         }
 
     
@@ -91,6 +93,9 @@ body {
         }
         .linkProfile > a {
             margin: 0 5%;
+        }
+        .linkProfile  i {
+            color: #000;
         }
 
 
